@@ -9,6 +9,6 @@ class myClass:
         print("Private variable value.", myClass.__privateVar)
 
 
-foo = myClass
+foo = myClass()
 foo.hello()
 foo.__privmeth
