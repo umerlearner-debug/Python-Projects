@@ -70,13 +70,12 @@ def topwin():
         except ValueError:
             messagebox.showerror("Error", "Please enter a valid number")
 
-
-    btn = Button (
-        top,
-        text ="calculator",
-        command = Calculator,
-        bg = "brown",
-        fg = "White"
+btn = Button (
+    top,
+    text ="calculator",
+    command = calculator,
+    bg = "brown",
+    fg = "White"
 
                 )
 
